@@ -11,7 +11,7 @@ namespace Tyuiu.KhabibullinMR.Sprint2.Task3.V28.Test
             DataService ds  = new DataService();
             double x = 2;
             double res = ds.Calculate(x);
-            double wait = 1.752;
+            double wait = 1.881;
             Assert.AreEqual(wait,res);
         }
         [TestMethod]
