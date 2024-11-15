@@ -7,7 +7,7 @@ namespace Tyuiu.KhabibullinMR.Sprint2.Task3.V28.Lib
         public double Calculate(double x)
         {
             double y=0;
-            if (x > 1) { y = Math.Round(x + Math.Pow((Math.Sin(x * x)) / (x - 1),(x+3)),3); }
+            if (x > 1) { y = Math.Round(x + Math.Pow((Math.Cos(x * x)) / (x - 1),(x+3)),3); }
             else
             {
                 if (x == 0) 
